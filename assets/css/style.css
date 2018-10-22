@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+.container {
+    background-image: url("../images/pink\ dust.png");
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header, .game_container {
+    width: 960px;
+    margin: 0 auto;
+    padding: auto;
+}
+
+.header {
+    padding: 10px 0px 10px 0px;
+}
+
+.header h1 {
+    font-family: 'Pacifico';
+    font-size: 4em;
+    color: #ffffff;
+    text-align: center;
+}
+
+.game_container {
+    margin-top: 40px;
+    border: 3px plum dotted;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_field h2, .text_field h3, .text_field h4 {
+    margin: 10px;
+    font-family: 'Pacifico';
+    color: lightpink;
+    font-size: 2em;
+}
+
+.picture_field img {
+    height: 304px;
+    width: 400px;
+    margin: auto;
+}
+
+#keyPressed {
+    font-weight: bold;
+    color: hotpink;
+}
